@@ -1,0 +1,33 @@
+@media only screen and (max-width: 768px) {
+    /* HEADER */
+    .header-content .title-main{
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .bg-top .social-icons{
+        text-align: center;
+    }
+    .frm-login{
+        display: none;
+    }
+
+
+    /* FOOTER */
+    .footer-content{
+        text-align: center;
+    }
+
+    .footer-content .logo-footer,
+    .footer-content .social-icons{
+        float: none;
+    }
+
+    /* RESET */
+    .social-icons a{
+        width: 20px;
+        height: 20px;
+    }
+    .social-icons a i{
+        font-size: 1em;
+    }
+}
